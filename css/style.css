@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+/*стили обнуления*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+}
+/*-----------------------------------------------*/
+
+.header {
+	display: block;
+	max-width: 1230;
+	margin: auto;
+}
+
+.header .menu-one {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+	margin-bottom: 20px;
+	background-color: rgb(8, 8, 8);
+}
+
+.list-one {
+	display: block;
+	background: none;
+	margin-left: 25px;
+	color: rgb(250, 255, 255);
+	font-weight: 900;
+	font-size: 14px;
+	text-transform: inherit;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+}
+.header li {
+	display: inline-block;
+	background: none;
+}
+.header .img-0 {
+	display: block;
+	max-width: 300px;
+	margin: 0 auto 70px;
+}
+.header .menu-two {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.list-two {
+	display: block;
+	background: none;
+	margin-left: 25px;
+	color: rgb(46, 48, 48);
+	font-weight: 900;
+	font-size: 14px;
+	text-transform: inherit;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+	padding-bottom: 10px;
+	box-shadow: 0px 3px 0px black;
+	margin-bottom: 50px;
+}
+.header .block {
+	max-width: 1230;
+	background: url("../img/Husqvarna_701.jpg");
+	background-size: cover;
+	height: 300px;
+	margin-top: -82px;
+}
+.block h1 {
+	max-width: auto;
+	color: rgb(15, 15, 15);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.inscription {
+	display: block;
+	max-width: 800px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.img-1 {
+	display: block;
+	max-width: 60px;
+	border-radius: 100px;
+	border: 3px dashed rgb(253, 2, 2);
+	margin-top: -150px;
+	box-shadow: 5px 5px 5px rgb(235, 235, 238);
+}
+.inscription h6 {
+	color: black;
+	max-width: 700px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+	margin-left: 70px;
+	margin-top: -40px;
+	text-shadow: 2px 2px 2px rgb(240, 8, 8);
+}
+.main .container {
+	display: block;
+	max-width: 1230px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: -100px;
+	padding-bottom: 50px;
+	background-color: rgba(230, 224, 224, 0.76);
+}
+.main p {
+	display: block;
+	max-width: 600px;
+	margin: 50px auto;
+}
+.main img {
+	display: block;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.item-1 {
+	color: green;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+	padding-top: 45px;
+}
+.image {
+	position: relative;
+	width: 100%;
+}
+.image .img-2 {
+	max-width: 800px;
+	box-shadow: 5px 5px 5px 5px rgb(95, 94, 94);
+	border-radius: 10px;
+	margin-left: 550px;
+	border: 5px solid rgb(251, 6, 6);
+}
+.main .image h2 {
+	position: absolute;
+	top: 30px;
+	left: 575px;
+	max-width: 200px;
+	color: mediumblue;
+	font-family: cursive;
+	font-size: 18px;
+	background-color: rgb(223, 226, 230);
+	padding: 20px 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px rgb(51, 51, 51);
+}
+
+.item-3 {
+	color: rgb(250, 6, 140);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+	padding-top: 20px;
+}
+.main h2 {
+	display: block;
+	max-width: 600px;
+	margin: 0px auto;
+}
+.main h2 {
+	color: black;
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: 500px;
+}
+.item-4 {
+	color: rgb(2, 155, 243);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	height: 150px;
+	padding-top: 20px;
+	overflow: auto;
+}
+.main .image-1 {
+	position: relative;
+	width: 100%;
+}
+.image-1 .img-3 {
+	max-width: 800px;
+	box-shadow: 5px 5px 5px 5px rgb(95, 94, 94);
+	border-radius: 50px;
+	margin-left: -100px;
+	border: 5px solid rgb(6, 10, 251);
+	margin-bottom: 50px;
+}
+.main .image-1 h2 {
+	position: absolute;
+	top: 30px;
+	left: 485px;
+	max-width: 200px;
+	color: mediumblue;
+	font-family: cursive;
+	font-size: 18px;
+	background-color: rgb(223, 226, 230);
+	padding: 20px 20px;
+	border-radius: 20px;
+	border: 1px solid rgb(27, 27, 27);
+	box-shadow: 0px 0px 5px rgb(250, 249, 249);
+}
+.item-6 {
+	color: rgb(49, 53, 56);
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+		sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+.image-1 {
+	position: relative;
+	width: 100%;
+}
+.img-4 {
+	max-width: auto;
+	box-shadow: 5px 5px 5px 5px rgb(53, 70, 54);
+	border-radius: 25px;
+	margin-left: 50 50;
+	border: 5px dashed rgb(2, 85, 30);
+}
+.item-7 {
+	color: rgb(10, 148, 253);
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+}
+.item-8 {
+	color: rgb(253, 6, 6);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	background-color: rgb(121, 120, 120);
+	padding: 20px;
+}
+.main .img-5 {
+	max-width: 600px;
+	box-shadow: 10px 5px 5px 5px rgb(133, 130, 95);
+	border-radius: 25px;
+	margin-left: 50 50;
+	border: 10px dotted rgb(252, 103, 4);
+}
+.item-9 {
+	color: rgb(4, 20, 32);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: 500px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-shadow: 0px 0px 5px rgb(241, 11, 11);
+}
+.item-10 {
+	color: rgb(248, 94, 4);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	font-weight: 900px;
+	letter-spacing: 2px;
+	text-shadow: 0px 2px 0px rgb(8, 8, 8);
+}
+.main .image-2 {
+	position: relative;
+	width: 100%;
+}
+.image-2 .img-6 {
+	max-width: 800px;
+	box-shadow: 5px 5px 5px 5px rgb(95, 94, 94);
+	border-radius: 50px;
+	margin-right: -100px;
+	border: 5px solid rgb(235, 251, 6);
+	margin-bottom: 50px;
+}
+.main .image-2 h2 {
+	position: absolute;
+	top: 30px;
+	left: 560px;
+	max-width: 400px;
+	color: mediumblue;
+	font-family: cursive;
+	font-size: 18px;
+	background-color: rgb(223, 226, 230);
+	padding: 20px 20px;
+	border-radius: 20px;
+	border: 1px solid rgb(27, 27, 27);
+	box-shadow: 0px 0px 5px rgb(250, 249, 249);
+}
+
+.item-11 {
+	color: rgb(186, 155, 243);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+	text-shadow: 0px 2px 0px rgb(8, 8, 8);
+}
+.item-12 {
+	color: rgb(248, 4, 4);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 900px;
+	background-color: yellow;
+	padding: 10px;
+	box-shadow: 10px 10px 0px rgb(8, 8, 8);
+}
+.img-7 {
+	width: 500px;
+	height: 500px;
+	border-radius: 100px;
+	border: 10px double rgb(253, 6, 6);
+}
+.item-13 {
+	color: rgb(23, 22, 24);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	font-style: italic;
+}
+.item-14 {
+	color: rgb(70, 73, 77);
+	font-family: "lato" serif;
+	font-size: 20px;
+	font-weight: 900px;
+	letter-spacing: 2px;
+	text-shadow: 0px 0px 1px rgb(124, 89, 250);
+}
+.img-8 {
+	max-width: 600px;
+	border-radius: 25px 70px;
+	margin-left: 50 50;
+	border: 15px solid transparent;
+}
+.img-8:hover {
+	border: 15px solid rgb(11, 177, 243);
+}
+.item-15 {
+	color: rgb(6, 255, 243);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	font-style: italic;
+	background-color: seashell;
+	padding: 10px;
+	box-shadow: -10px 10px 0px rgb(117, 116, 116);
+	border: 2px solid gray;
+}
+.item-16 {
+	color: rgb(5, 0, 10);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+.item-17 {
+	color: rgb(85, 5, 165);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+}
+.item-18 {
+	color: rgb(5, 0, 10);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.main .img-9 {
+	max-width: 600px;
+	border-radius: 50px 10px;
+	border: 15px dashed red;
+}
+.item-19 {
+	color: rgba(5, 80, 9, 0.602);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 500px;
+	letter-spacing: 2px;
+}
+.item-20 {
+	color: rgba(57, 59, 57, 0.602);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+}
+.img-10 {
+	border-radius: 10px;
+	border: 15px double rgb(250, 123, 4);
+}
+.main .item-21 {
+	color: rgb(49, 27, 253);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 900px;
+	word-spacing: 5px;
+	box-shadow: 0px 2px 0px black;
+	padding-bottom: 30px;
+	margin-bottom: 100px;
+}
+.footer {
+	display: block;
+	max-width: 1230;
+	margin: 0px auto;
+	background-color: rgb(87, 85, 85);
+	margin-top: -50px;
+}
+.footer .menu {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+}
+.footer .list {
+	color: rgb(250, 255, 255);
+	font-weight: 900;
+	font-size: 14px;
+	text-transform: inherit;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+	box-shadow: 0px 2px 0px rgb(250, 255, 255);
+	padding-bottom: 10px;
+}
+.footer li {
+	display: inline-block;
+	margin: 0 auto;
+}
+.footer .logo-2 {
+	display: block;
+	max-width: 300px;
+	margin: 2px auto 50px;
+	padding-top: 50px;
+}
+.footer p {
+	color: rgba(250, 255, 255, 0.712);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 50px;
+}
